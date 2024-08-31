@@ -1,0 +1,110 @@
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.pro-description{
+    background-color:rgb(184, 184, 184);
+    padding: 15px;
+    flex-grow:  1 ;
+
+}
+
+.cards{
+    border-radius: 30px;
+}
+
+.pro-description h4{
+    font-size: large;
+    
+}
+
+
+
+.foot{
+    background-color: rgb(100, 79, 79);
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+
+.foot-links{
+    margin: 20px;
+}
+
+.foot-links h4{
+    margin-top: 0;
+}
+
+
+.foot-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-links li{
+    margin-bottom:20px ;
+}
+
+
+
+.foot-copy{
+    justify-content:right;
+    margin-left:760px;
+}
+
+
+.cards img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.cards button{
+    /* display: flex;
+    flex: 1;
+    margin:0 auto;
+    padding: 3px;
+    color: black;
+    background-color: rgb(124, 114, 87);
+    border: none;
+    border-radius: 9px;
+    font-size: medium;
+    width: 100%;
+    font-weight: 600;
+    text-align: center; */
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #7B6E58; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border if needed */
+    border-radius: 5px; /* Add rounded corners if desired */
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.cards button:hover{
+    background-color: rgb(82, 79, 71);
+}
+
+
